@@ -1,7 +1,7 @@
 Relative Luminance Kata
 =======================
 
-This coding kata has several steps:
+This coding kata has multiple steps that add additional requirements to the implementation and thus increase the complexity of the solution that should be reached by test driven development:
 
 * Calculation of the relative luminance for a given RGB color code
 * Calculation of the contrast ratio for two RGB color codes
@@ -57,11 +57,11 @@ Using this formula, the requirements are:
 	4.5:1 - minimum contrast for regular sized text under WCAG 2.0 1.4.3 (Level AA)
 	7:1 - "enhanced" contrast for regular sized text under WCAG 2.0 1.4.6 (Level AAA)
 
-Eingabe von CMYK-Werten
-Formel: http://www.rapidtables.com/convert/color/cmyk-to-rgb.htm
 
-CMYK to RGB conversion formula
-------------------------------
+CMYK to RGB conversion
+----------------------
+
+Source: http://www.rapidtables.com/convert/color/cmyk-to-rgb.htm
  
 The R,G,B values are given in the range of 0..255.
  
